@@ -1,0 +1,29 @@
+body{
+    height: 300vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+    }
+h1[class*="sicky"]{
+    height: 50px;
+    background-color: violet;
+    color: black;
+}
+.sticky-One{
+    position: sticky;
+    background-color: aqua;
+    top: 0;
+
+}
+.sticky-Two{
+    background-color: violet;
+    position: sticky;
+    top: 37px;
+
+}
+.sticky-Three{
+    position: sticky;
+    background-color: springgreen;
+    top: 74px;
+
+}
